@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="icon" type="image/png" href="./owner.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Tic Tac Toe <sub class="smoll">by Izaan Khan</sub></h1>
+        <div class="main-box">
+          <div class="row1 row">
+            <div onclick="main();" class="box box-1"></div>
+            <div onclick="main();" class="box box-2"></div>
+            <div onclick="main();" class="box box-3"></div>
+          </div>
+          <div class="row2 row">
+            
+            <div onclick="main();" class="box box-4"></div>
+            <div onclick="main();" class="box box-5"></div>
+            <div onclick="main();" class="box box-6"></div>
+          </div>
+          <div class="row3 row">
+            
+            <div onclick="main();" class="box box-7"></div>
+            <div onclick="main();" class="box box-8"></div>
+            <div onclick="main();" class="box box-9"></div>
+          </div>
+        </div>
+        <div class="idle-1"></div>
+        <button class="btn-1" onclick="resetGame(); audioReset.play();">Reset Game</button>
+        <div class="scoreBoard"></div>
+      </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
